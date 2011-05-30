@@ -252,11 +252,10 @@ Lingua::EN::Fathom was written by Kim Ryan <kimryan at cpan dot org>.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2007 Kim Ryan. All rights reserved.
+Copyright (c) 2011 Kim Ryan. All rights reserved.
 
 This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself, either Perl version 5.8.4 or,
-at your option, any later version of Perl 5 you may have available.
+it under the same terms as Perl itself.
 
 =cut
 
@@ -268,7 +267,7 @@ use Lingua::EN::Syllable;
 use strict;
 use warnings;
 
-our $VERSION = '1.12';
+our $VERSION = '1.13';
 
 #------------------------------------------------------------------------------
 # Create a new instance of a text object.

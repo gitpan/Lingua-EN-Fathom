@@ -1,14 +1,22 @@
 --- #YAML:1.0
-name:                Lingua-EN-Fathom
-version:             1.12
-abstract:            Measure readability of English text
-license:             perl
-generated_by:        ExtUtils::MakeMaker version 6.32
-distribution_type:   module
-requires:     
-    Lingua::EN::Syllable:          0
-meta-spec:
-    url:     http://module-build.sourceforge.net/META-spec-v1.2.html
-    version: 1.2
+name:               Lingua-EN-Fathom
+version:            1.13
+abstract:           Measure readability of English text
 author:
     - Kim Ryan <kimryan at cpan org>
+license:            perl
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    Lingua::EN::Syllable:  0
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.56
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
