@@ -1,11 +1,14 @@
 Revision history for Perl CPAN module Lingua::En::Fathom
 
+1.14 31 May 2011
+    Changed main.t to use 'like' instead of 'if' when testing for floating
+    point numbers. This means tests are independant of machine precision
+
 1.13 30 May 2011
     Added more tests to main.t
     Uprasded all tests to use Test::More module
     Thanks to Kirk Kimmel for theses changes
     
-
 1.12 13 Apr 2008
     Minor fixes
     

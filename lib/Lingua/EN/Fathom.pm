@@ -267,7 +267,7 @@ use Lingua::EN::Syllable;
 use strict;
 use warnings;
 
-our $VERSION = '1.13';
+our $VERSION = '1.14';
 
 #------------------------------------------------------------------------------
 # Create a new instance of a text object.
