@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Lingua-EN-Fathom
-version:            1.14
+version:            1.15
 abstract:           Measure readability of English text
 author:
     - Kim Ryan <kimryan at cpan org>

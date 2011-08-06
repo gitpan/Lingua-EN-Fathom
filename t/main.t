@@ -7,7 +7,6 @@
 
 use warnings;
 use strict;
-use diagnostics;
 use Test::More tests => 13;
 
 BEGIN {
